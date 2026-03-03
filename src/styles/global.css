@@ -1,3 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #FF6B35;
+  --color-dark: #2C1810;
+  --color-light: #FFF8F0;
+  --color-accent: #D4A574;
+  --color-black-custom: #1A1A1A;
+  --font-family-bebas: 'Bebas Neue', cursive;
+  --font-family-inter: 'Inter', sans-serif;
+}
