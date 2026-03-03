@@ -2,12 +2,12 @@
 import Layout from '../layouts/Layout.astro';
 
 const menu = [
-  { nombre: 'Classic Smash', desc: 'Doble medallón, queso cheddar, pickles y salsa secreta', precio: '$4.500', img: 'https://placehold.co/400x300/FF6B35/FFF8F0?text=Classic+Smash' },
-  { nombre: 'BBQ Bacon', desc: 'Cheddar ahumado, bacon crocante, cebolla caramelizada y BBQ', precio: '$5.200', img: 'https://placehold.co/400x300/2C1810/D4A574?text=BBQ+Bacon' },
-  { nombre: 'Crispy Chicken', desc: 'Pollo crocante, coleslaw, jalapeños y mayo picante', precio: '$4.800', img: 'https://placehold.co/400x300/D4A574/2C1810?text=Crispy+Chicken' },
-  { nombre: 'Veggie Deluxe', desc: 'Medallón de lentejas, aguacate, rúcula y queso brie', precio: '$4.200', img: 'https://placehold.co/400x300/FF6B35/1A1A1A?text=Veggie+Deluxe' },
-  { nombre: 'The Monster', desc: 'Triple medallón, triple cheddar, bacon y huevo frito', precio: '$6.800', img: 'https://placehold.co/400x300/1A1A1A/FF6B35?text=The+Monster' },
-  { nombre: 'Truffle Shroom', desc: 'Medallón wagyu, hongos salteados, aioli de trufa y rúcula', precio: '$7.500', img: 'https://placehold.co/400x300/2C1810/FFF8F0?text=Truffle+Shroom' },
+  { nombre: 'Classic Smash', desc: 'Doble medallón, queso cheddar, pickles y salsa secreta', precio: '$4.500', img: '/images/menu/classic-smash.jpg' },
+  { nombre: 'BBQ Bacon', desc: 'Cheddar ahumado, bacon crocante, cebolla caramelizada y BBQ', precio: '$5.200', img: '/images/menu/bbq-bacon.jpg' },
+  { nombre: 'Crispy Chicken', desc: 'Pollo crocante, coleslaw, jalapeños y mayo picante', precio: '$4.800', img: '/images/menu/crispy-chicken.jpg' },
+  { nombre: 'Veggie Deluxe', desc: 'Medallón de lentejas, aguacate, rúcula y queso brie', precio: '$4.200', img: '/images/menu/veggie-deluxe.jpg' },
+  { nombre: 'The Monster', desc: 'Triple medallón, triple cheddar, bacon y huevo frito', precio: '$6.800', img: '/images/menu/the-monster.jpg' },
+  { nombre: 'Truffle Shroom', desc: 'Medallón wagyu, hongos salteados, aioli de trufa y rúcula', precio: '$7.500', img: '/images/menu/truffle-shroom.jpg' },
 ];
 
 const testimonios = [
@@ -17,12 +17,12 @@ const testimonios = [
 ];
 
 const galeria = [
-  { img: 'https://placehold.co/600x400/FF6B35/FFF8F0?text=El+Local', alt: 'Interior del local' },
-  { img: 'https://placehold.co/600x400/2C1810/D4A574?text=La+Cocina', alt: 'La cocina' },
-  { img: 'https://placehold.co/600x400/D4A574/2C1810?text=Nuestras+Burgers', alt: 'Hamburguesas' },
-  { img: 'https://placehold.co/600x400/1A1A1A/FF6B35?text=El+Equipo', alt: 'Nuestro equipo' },
-  { img: 'https://placehold.co/600x400/FF6B35/1A1A1A?text=La+Barra', alt: 'La barra' },
-  { img: 'https://placehold.co/600x400/2C1810/FFF8F0?text=Ambiente', alt: 'Ambiente del local' },
+  { img: '/images/galeria/interior.jpg', alt: 'Interior del local' },
+  { img: '/images/galeria/cocina.jpg', alt: 'La cocina' },
+  { img: '/images/galeria/hamburguesas.jpg', alt: 'Hamburguesas' },
+  { img: '/images/galeria/equipo.jpg', alt: 'Nuestro equipo' },
+  { img: '/images/galeria/barra.jpg', alt: 'La barra' },
+  { img: '/images/galeria/ambiente.jpg', alt: 'Ambiente del local' },
 ];
 ---
 
@@ -84,7 +84,7 @@ const galeria = [
   <section id="nosotros" class="py-24 px-4 bg-[#2C1810]">
     <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-16 items-center">
       <div class="reveal reveal-left">
-        <img src="https://placehold.co/600x500/FF6B35/FFF8F0?text=Nuestra+Historia" alt="Nuestra historia" class="rounded-2xl w-full shadow-2xl" />
+        <img src="/images/nosotros/historia.jpg" alt="Nuestra historia" class="rounded-2xl w-full shadow-2xl" />
       </div>
       <div class="reveal reveal-right text-[#FFF8F0]">
         <p class="text-[#D4A574] text-sm font-semibold uppercase tracking-widest mb-3">Nuestra historia</p>
